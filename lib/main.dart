@@ -4,6 +4,8 @@ import 'package:calendar/CalendarTask.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'dart:ui' as ui;
+
+ 
 //////////////////////////////
 Future<void> main() async {
   // await initializeDateFormatting();
@@ -23,6 +25,7 @@ Future<void> main() async {
     ),
   );
 }
+
 class MyApp extends StatelessWidget {
   MyApp({super.key});
 
@@ -32,7 +35,6 @@ class MyApp extends StatelessWidget {
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
       locale: context.locale,
-
       debugShowCheckedModeBanner: false,
       home: CalendarTask(),
       // home:
@@ -40,7 +42,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 
   /*
        Localizations.override(
