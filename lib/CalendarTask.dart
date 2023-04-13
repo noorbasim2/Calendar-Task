@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, deprecated_member_use, non_constant_identifier_names
 
- import 'package:easy_localization/easy_localization.dart';
+ import 'package:calendar/theTimePage.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_datepicker/datepicker.dart';
 import 'package:table_calendar/table_calendar.dart';
@@ -264,6 +265,4 @@ class _CalendarTaskState extends State<CalendarTask> {
               Text(yearValue.toString() + ' - ' + (yearValue + 9).toString()));
     }
   }
-  
-  theTimePage() {}
 }
